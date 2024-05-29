@@ -1,0 +1,130 @@
+body{
+     /*Margen predeterminado de las p+aginas web*/
+     margin: 0;
+     /*Margen interno*/
+     padding: 0;
+     font-size: 15px;
+     font-family: "Roboto", sans-serif;;
+     background-color: #fff;
+}
+*************************************************/
+/*****************************************/
+/***********************************/
+/****************Navegación*******/
+header{
+    width: 100%;
+    height: 100px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: end
+
+}
+nav .nav-right-section a{
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+
+}
+
+    
+nav .nav-right-section .menu{
+    background-image: url(https://ssl.gstatic.com/gb/images/bar/al-icon.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+    height: 30px;
+    width: 30px;
+}
+nav .nav-right-section .menu:hover::after{
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+nav .nav-right-section .borderImg{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 0 10px;
+        border: 15px solid transparent;
+        
+}
+.borderImg{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: 
+    box
+        linear-gradient(#fff,#fff),
+        linear-gradientlinear-gradient(to right, blue 20%, green 20%, green 40%, purple 40%, purple 60%, orange 60%, orange 80%, red 80%) 1;
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+
+}
+nav .nav-right-section img{
+    margin-right: 5px;
+}
+#perfilImg{
+   /* margin-top:15px;*/
+    border-radius: 100%;
+    border:2px solid transparent;
+   /* box-shadow:  2px 2px 2px 2px rgba(152, 110, 215, 0.2);  */
+}
+
+.nav-right-section .nav-text:hover{
+    text-decoration:underline;
+}
+.nav-right-section .nav-img:hover{
+    text-decoration:underline;
+    background-color: #E3E0E0;
+    border-radius: 100%;
+}
+.section-doodle{
+    margin: 0 auto;
+    text-align: center;
+
+    padding-bottom: 10px;
+}
+main{
+    height: 520px;
+}
+
+.main-img{
+    height: 220px;
+}
+.cont-button{
+    background-color: white;
+    height: 50px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-color: 2px solid #F9F8F8;
+    box-shadow: 8px 8px 20px 2px rgba(125, 125, 125, 0.75);
+
+}
+.cont-button:hover{
+    box-shadow: 8px 8px 20px 2px rgba(160, 141, 244, 0.75);
+}
+.cont-button .buscarInput{
+    border:0px solid #000;
+    width:100%;
+}
+.iconGoogle{
+    width: 30px;
+}
+footer{
+    background-color: rgb(215, 214, 214);
+    height: 120px;
+
+}
+.foot-cont .row{
+    border: 0px solid #000;
+    height: 60px;
+}
